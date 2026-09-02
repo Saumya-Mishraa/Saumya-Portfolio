@@ -1,133 +1,267 @@
-# Saumya Mishra — Premium Portfolio
+# ✦ Saumya Mishra — Full Stack Developer Portfolio
 
-A from-scratch React + Vite portfolio: black + cherry editorial design, GSAP + ScrollTrigger
-motion (cinematic hero intro, pinned project showcase, scroll-triggered reveals), a custom
-cursor, magnetic buttons, and a working contact form via Formspree.
+<p align="center">
+  <strong>Building modern web experiences with code, creativity & interaction.</strong>
+</p>
 
-## 1. Installation
+<p align="center">
+  <a href="https://github.com/Saumya-Mishraa">GitHub</a>
+  &nbsp;•&nbsp;
+  <a href="https://www.linkedin.com/in/saumya-mishra-a20387373/">LinkedIn</a>
+  &nbsp;•&nbsp;
+  <a href="mailto:imsaumya48@gmail.com">Email</a>
+</p>
 
-```bash
-npm install
-```
+---
 
-## 2. Run in development
+## ✨ About The Portfolio
 
-```bash
-npm run dev
-```
+This is my personal developer portfolio, designed and developed from scratch using **React + Vite**.
 
-Opens the site locally (usually at `http://localhost:5173`) with hot reload.
+The portfolio brings together my work in **Full Stack Development, UI/UX, interactive experiences, animation, and modern web technologies** in a responsive and motion-focused interface.
 
-## 3. Build for production
+> **Design. Develop. Animate. Deliver.**
 
-```bash
-npm run build
-```
+---
 
-Outputs the optimized static site into `dist/`. Preview the production build with:
+## 🎯 Portfolio Highlights
 
-```bash
-npm run preview
-```
+- ✦ Modern editorial-inspired interface
+- ✦ Smooth GSAP & ScrollTrigger animations
+- ✦ Interactive project showcase
+- ✦ Custom cursor interactions
+- ✦ Magnetic buttons & micro-interactions
+- ✦ Responsive mobile navigation
+- ✦ Fully responsive across devices
+- ✦ Technology icons in the skills section
+- ✦ Resume view & download
+- ✦ Working contact form powered by Formspree
+- ✦ GitHub, LinkedIn & live project links
+- ✦ Accessibility support with reduced-motion handling
 
-## 4. Project structure
+---
 
-```
+## 🧩 Sections
+
+| Section | Highlights |
+| :--- | :--- |
+| 🏠 **Hero** | Introduction and interactive landing experience |
+| 💼 **Selected Work** | Featured development projects |
+| 👩🏻 **About** | Background and development journey |
+| ⚡ **Skills** | Technologies, tools and development skills |
+| 💻 **Experience** | Professional experience |
+| 🎓 **Education** | Academic background |
+| 📄 **Resume** | View and download resume |
+| ✉️ **Contact** | Working contact form |
+
+---
+
+# 🚀 Featured Projects
+
+## 💬 Real-Time Chat Application
+
+A real-time communication application focused on instant messaging and a responsive user experience.
+
+**Tech Stack**
+
+`React` `Node.js` `Express.js` `MongoDB` `Socket.io`
+
+🔗 **[View on GitHub](https://github.com/Saumya-Mishraa/real-time-chat-application)**
+
+---
+
+## 👥 Employee Management System
+
+A web-based employee management application designed to manage employee information through a structured and intuitive interface.
+
+**Tech Stack**
+
+`React` `Node.js` `Express.js` `MongoDB`
+
+🔗 **[View on GitHub](https://github.com/Saumya-Mishraa/Employee-Management-System)**
+
+---
+
+## 🧸 Soft Toy Store
+
+A responsive e-commerce style web experience for browsing and exploring soft toy products.
+
+🔗 **[Live Demo](https://saumya-mishraa.github.io/Soft-Toy-Store/)**
+
+---
+
+## 🧭 Campus Wellness Compass
+
+A campus-focused wellness platform designed to provide students with an engaging and accessible digital experience.
+
+🔗 **[Live Demo](https://campus-wellness-compass-azm.caffeine.xyz/)**
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+`HTML5` `CSS3` `JavaScript` `React.js` `Vite` `Tailwind CSS` `Responsive Design`
+
+### Backend
+
+`Node.js` `Express.js` `REST APIs` `JWT Authentication`
+
+### Database
+
+`MongoDB` `Mongoose` `MySQL`
+
+### Tools & Deployment
+
+`Git` `GitHub` `Postman` `npm` `VS Code` `Vercel` `Render` `GitHub Pages`
+
+### Additional
+
+`TypeScript` `Next.js` `AI-Assisted Development`
+
+### Motion & Interaction
+
+`GSAP` `ScrollTrigger` `Custom Cursor` `Magnetic Interactions` `Micro-interactions`
+
+---
+
+# 💫 Experience & Interaction
+
+### 🎞️ Motion-Driven UI
+
+GSAP and ScrollTrigger are used throughout the portfolio to create smooth and purposeful scroll-based animations.
+
+### 🖱️ Interactive Elements
+
+The interface includes custom cursor interactions, magnetic buttons, hover effects and subtle micro-interactions.
+
+### 📱 Responsive Design
+
+The portfolio is designed to provide a consistent experience across:
+
+**Mobile → Tablet → Laptop → Desktop**
+
+### ♿ Accessibility
+
+The portfolio respects the user's reduced-motion preference through:
+
+```text
+prefers-reduced-motion
+
+Animations are reduced or disabled when reduced motion is enabled.
+
+📁 Project Structure
 saumya-portfolio/
+│
 ├── public/
-│   └── resume.pdf              ← your resume PDF, served at /resume.pdf
+│   └── resume.pdf
+│
 ├── src/
 │   ├── assets/
-│   │   ├── images/portrait.jpg ← your portrait photo
-│   │   └── projects/           ← the 4 project screenshots
-│   ├── components/              Navbar, CustomCursor, MagneticButton,
-│   │                            ProjectRow, PinnedProject, SplitWords, SkillIcon
-│   ├── sections/                Hero, Freelance, Work, About, Skills,
-│   │                            Experience, Education, Resume, Contact
-│   ├── data/content.js          ← all project/skill/experience/education text
-│   ├── styles/                  one CSS file per section/component
+│   │   ├── images/
+│   │   └── projects/
+│   │
+│   ├── components/
+│   ├── sections/
+│   ├── data/
+│   ├── styles/
+│   │
 │   ├── App.jsx
 │   └── main.jsx
+│
 ├── .env.example
-└── package.json
-```
+├── package.json
+├── vite.config.js
+└── README.md
+⚡ Getting Started
+1. Clone the repository
+git clone https://github.com/Saumya-Mishraa/Saumya-Portfolio.git
+2. Navigate to the project
+cd Saumya-Portfolio
+3. Install dependencies
+npm install
+4. Start the development server
+npm run dev
 
-## 5. Where your assets live
+The development server will normally run at:
 
-- **Photo:** `src/assets/images/portrait.jpg` — used in the Hero. Replace this file
-  (keep the same name) to swap the photo.
-- **Project screenshots:** `src/assets/projects/` — `chat-app.png`,
-  `employee-management.png`, `softtoy-store.png`, `campus-wellness.png`.
-- **Resume:** `public/resume.pdf` — served directly at `/resume.pdf`, used by both the
-  "View Resume" and "Download PDF" buttons.
+http://localhost:5173
+🏗️ Production Build
 
-## 6. Updating project links
+Create an optimized production build:
 
-All project content (titles, descriptions, tech stack, and links) lives in one place:
-`src/data/content.js`, in the `projects` array. Edit the `links` array for any project to
-change its GitHub or live-demo URL.
+npm run build
 
-## 7. Updating GitHub / LinkedIn / email
+Preview the production build locally:
 
-Also in `src/data/content.js`, in the `social` object at the top of the file:
+npm run preview
 
-```js
-export const social = {
-  github: "https://github.com/your-username",
-  linkedin: "https://linkedin.com/in/your-profile",
-  email: "you@example.com",
-};
-```
+Production files are generated inside:
 
-## 8. Configuring the contact form (Formspree)
+dist/
+📸 Assets
+Portrait
 
-1. Create a free form at [formspree.io](https://formspree.io) and copy its endpoint URL.
-2. Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-3. Paste your endpoint into `.env`:
-   ```
-   VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/your-id
-   ```
-4. Restart `npm run dev` (Vite only reads `.env` on startup).
+The portfolio uses a personal portrait image as part of the portfolio presentation.
 
-Until this is set, the form will show an inline message telling visitors the endpoint
-isn't configured yet — it will never fake a successful submission.
+Project Screenshots
 
-## 9. Deploying
+Project screenshots are stored inside the project's assets and are used throughout the project showcase.
 
-### Vercel
-```bash
-npm install -g vercel
-vercel
-```
-Set `VITE_FORMSPREE_ENDPOINT` under Project Settings → Environment Variables.
+Resume
 
-### Netlify
-- Build command: `npm run build`
-- Publish directory: `dist`
-- Add `VITE_FORMSPREE_ENDPOINT` under Site settings → Environment variables.
+The resume is located at:
 
-### GitHub Pages
-1. `npm install -D gh-pages`
-2. Add to `package.json`:
-   ```json
-   "homepage": "https://your-username.github.io/your-repo",
-   "scripts": { "deploy": "vite build && gh-pages -d dist" }
-   ```
-3. Set `base: "/your-repo/"` in `vite.config.js`.
-4. `npm run deploy`
+public/resume.pdf
 
-Note: GitHub Pages doesn't support build-time secrets in the same way — bake the
-Formspree endpoint into a `.env` file locally before building, or use a repo secret with
-a GitHub Actions deploy workflow instead of the CLI above.
+It is available through the portfolio's View Resume and Download PDF actions.
 
-## Notes on the build
+📬 Contact Form
 
-- Motion: GSAP + ScrollTrigger throughout, with `prefers-reduced-motion` respected (the
-  pinned project sequence and portrait parallax are skipped when reduced motion is on).
-- Custom cursor and magnetic buttons are automatically disabled on touch/narrow (< 860px)
-  devices.
-- All copy is sourced only from the resume and information provided — no invented
-  experience, clients, or stats.
+The portfolio includes a working contact form powered by Formspree.
+
+Visitors can submit:
+
+Name
+Email
+Message
+
+Form submissions are delivered to the configured email inbox.
+
+🌐 Deployment
+
+The portfolio is optimized for deployment on Vercel.
+
+Production Configuration
+Framework        → Vite
+Build Command    → npm run build
+Output Directory → dist
+
+The project can also be deployed on other platforms that support Vite applications.
+
+👩🏻‍💻 About Me
+
+Hi, I'm Saumya Mishra.
+
+I'm a Full Stack Developer and BCA student passionate about building modern, responsive and interactive web applications.
+
+I enjoy combining:
+
+Frontend Development
+        ↓
+Backend Development
+        ↓
+Database Integration
+        ↓
+UI / UX Design
+        ↓
+Animation & Interaction
+
+My goal is to create digital experiences that are not only functional, but also beautiful, intuitive and memorable.
+
+🔗 Connect With Me
+<p align="center"> <a href="https://github.com/Saumya-Mishraa"> <strong>GitHub</strong> </a> &nbsp;•&nbsp; <a href="https://www.linkedin.com/in/saumya-mishra-a20387373/"> <strong>LinkedIn</strong> </a> &nbsp;•&nbsp; <a href="mailto:imsaumya48@gmail.com"> <strong>Email</strong> </a> </p>
+<p align="center"> <strong>Designed & Developed by Saumya Mishra</strong> <br/> <sub>React • Vite • GSAP • Full Stack Development</sub> </p> <p align="center"> ✦ ✦ ✦ </p> ```
+
+Important: GitHub ke README editor mein paste karte waqt sabse bahar wala ```md aur last wala ``` mat paste karna. Andar ka poora content paste karna hai.
