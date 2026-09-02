@@ -1,0 +1,50 @@
+:root {
+  /* Color system — Black + Cherry */
+  --obsidian: #0a0909;
+  --obsidian-soft: #100d0d;
+  --cherry-deep: #3a0d18;
+  --cherry-red: #d92f45;
+  --rose-soft: #f08a98;
+  --ivory: #f7f0e8;
+  --ivory-dim: rgba(247, 240, 232, 0.62);
+  --ivory-faint: rgba(247, 240, 232, 0.14);
+
+  /* Typography */
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Type scale */
+  --fs-hero: clamp(3.4rem, 9vw, 8.5rem);
+  --fs-h1: clamp(2.4rem, 5.5vw, 5rem);
+  --fs-h2: clamp(1.9rem, 4vw, 3.2rem);
+  --fs-h3: clamp(1.3rem, 2.2vw, 1.8rem);
+  --fs-body: clamp(1rem, 1.1vw, 1.125rem);
+  --fs-small: 0.875rem;
+  --fs-label: 0.75rem;
+
+  /* Layout */
+  --edge: clamp(1.5rem, 5vw, 4.5rem);
+  --max-width: 1400px;
+  --radius-sm: 6px;
+  --radius-md: 14px;
+
+  /* Motion */
+  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --edge: 1.25rem;
+    /*
+     * The base --fs-hero clamp (min 3.4rem / 54.4px) never actually shrinks
+     * below ~604px viewport width because 9vw stays under the 3.4rem floor,
+     * so every phone renders the same oversized, flat 54.4px size. That's
+     * what clips "DEVELOPER" on narrow screens. This override lets the
+     * hero/contact display heading scale down smoothly on phones while
+     * still landing on exactly 3.4rem at the 640px boundary (11vw = 3.4rem
+     * at 640px), so there's no visible jump versus the desktop-facing rule.
+     */
+    --fs-hero: clamp(2.2rem, 11vw, 3.4rem);
+  }
+}
