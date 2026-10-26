@@ -58,15 +58,15 @@ The portfolio brings together my work in **Full Stack Development, UI/UX, intera
 
 # 🚀 Featured Projects
 
-## 💬 Real-Time Chat Application
+## 💬 Velora — Real-Time Chat Application
 
-A real-time communication application focused on instant messaging and a responsive user experience.
+A full-stack real-time communication platform with group chat, WebRTC voice and video calls, 24-hour Status updates and shared Moments.
 
 **Tech Stack**
 
-`React` `Node.js` `Express.js` `MongoDB` `Socket.io`
+`React` `Vite` `Tailwind CSS` `Node.js` `Express.js` `Socket.IO` `MongoDB` `WebRTC`
 
-🔗 **[View on GitHub](https://github.com/Saumya-Mishraa/real-time-chat-application)**
+🔗 **[Live Demo](https://velora-real-time-chat-ecru.vercel.app/)** · **[GitHub](https://github.com/Saumya-Mishraa/velora-real-time-chat)**
 
 ---
 
@@ -95,6 +95,34 @@ A responsive e-commerce style web experience for browsing and exploring soft toy
 A campus-focused wellness platform designed to provide students with an engaging and accessible digital experience.
 
 🔗 **[Live Demo](https://campus-wellness-compass-azm.caffeine.xyz/)**
+
+---
+
+## ☕ Vyra Coffee House
+
+An editorial café website with a menu of drinks, add-to-bag actions and a mobile bottom tab bar.
+
+🔗 **[Live Demo](https://vyra-coffee-house-ftc9.vercel.app/)**
+
+---
+
+## 🧥 Maison Atelier
+
+A fashion storefront frontend with category tabs, product cards and a style journal.
+
+🔗 **[Live Demo](https://maison-atelier-xi.vercel.app/)**
+
+---
+
+## 🔗 FlowForge
+
+A full-stack developer platform for testing REST APIs and designing multi-step API workflows with a real execution engine.
+
+**Tech Stack**
+
+`React` `Vite` `Tailwind CSS` `Node.js` `Express.js` `MongoDB` `React Flow` `JWT`
+
+🔗 **[Live Demo](https://flow-forge-three-xi.vercel.app/)** · **[GitHub](https://github.com/Saumya-Mishraa/FlowForge)**
 
 ---
 

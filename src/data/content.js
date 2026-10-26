@@ -1,7 +1,10 @@
-import chatAppImg from "../assets/projects/chat-app.png";
+import veloraImg from "../assets/projects/velora.webp";
 import employeeMgmtImg from "../assets/projects/employee-management.png";
 import softToyImg from "../assets/projects/softtoy-store.png";
 import campusWellnessImg from "../assets/projects/campus-wellness.png";
+import vyraImg from "../assets/projects/vyra-coffee-house.webp";
+import maisonImg from "../assets/projects/maison-atelier.webp";
+import flowforgeImg from "../assets/projects/flowforge.png";
 
 export const social = {
   github: "https://github.com/Saumya-Mishraa",
@@ -12,13 +15,23 @@ export const social = {
 export const projects = [
   {
     number: "01",
-    title: "Real-Time Chat Application",
+    title: "Velora — Real-Time Chat Application",
     category: "Full Stack Development",
     description:
-      "A full-stack real-time chat application with a responsive interface for live conversation. The frontend talks to a Node.js and Express backend that handles users, messages and application data end to end.",
-    stack: ["React", "Node.js", "Express.js", "MongoDB"],
-    image: chatAppImg,
-    links: [{ label: "GitHub", href: "https://github.com/Saumya-Mishraa/real-time-chat-application" }],
+      "A full-stack real-time communication platform covering direct and group messaging, WebRTC voice and video calls, 24-hour Status updates and shared Moments. A React front end talks to an Express API and Socket.IO for live events, with MongoDB for persistence and Cloudinary for media.",
+    features: [
+      "1:1 and group chat with sent, delivered and seen states",
+      "Typing indicators, presence, replies, reactions and voice messages",
+      "WebRTC voice and video calls with call history",
+      "Status updates that expire after 24 hours, plus shared Moments",
+      "JWT authentication and Cloudinary media uploads",
+    ],
+    stack: ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "Socket.IO", "MongoDB", "WebRTC"],
+    image: veloraImg,
+    links: [
+      { label: "Live Demo", href: "https://velora-real-time-chat-ecru.vercel.app/" },
+      { label: "GitHub", href: "https://github.com/Saumya-Mishraa/velora-real-time-chat" },
+    ],
     layout: "large-left",
   },
   {
@@ -53,6 +66,60 @@ export const projects = [
     image: campusWellnessImg,
     links: [{ label: "Live Demo", href: "https://campus-wellness-compass-azm.caffeine.xyz/" }],
     layout: "large-right",
+  },
+  {
+    number: "05",
+    title: "Vyra Coffee House",
+    category: "Café Website & Ordering UI",
+    description:
+      "An editorial website for a small-batch café, built around a slow-coffee story. A full-bleed hero, a warm cream and espresso palette and serif headlines lead into a menu of drinks that can be added to a bag. On mobile, the header navigation becomes a bottom tab bar.",
+    features: [
+      "Menu cards with prices and add-to-bag buttons",
+      "Bag counter in the header",
+      "Bottom tab navigation on mobile",
+      "Story and visit sections with a distinct editorial feel",
+    ],
+    stack: ["Responsive Design", "Deployed on Vercel"],
+    image: vyraImg,
+    links: [{ label: "Live Demo", href: "https://vyra-coffee-house-ftc9.vercel.app/" }],
+    layout: "large-left",
+  },
+  {
+    number: "06",
+    title: "Maison Atelier",
+    category: "Fashion E-Commerce Frontend",
+    description:
+      "A storefront for a small-run clothing label, designed to feel calm and considered rather than loud. It pairs a large serif hero with a filterable product grid and a journal of style notes, all in a muted natural palette.",
+    features: [
+      "Category tabs for outerwear, tailoring, knitwear and essentials",
+      "Product cards with prices, Best seller and New in badges",
+      "Add-to-bag action and bag counter",
+      "Journal section with read-time labels",
+    ],
+    stack: ["Responsive Design", "Deployed on Vercel"],
+    image: maisonImg,
+    links: [{ label: "Live Demo", href: "https://maison-atelier-xi.vercel.app/" }],
+    layout: "large-right",
+  },
+  {
+    number: "07",
+    title: "FlowForge",
+    category: "Full Stack Development",
+    description:
+      "A full-stack developer platform for testing REST APIs and designing multi-step API workflows on a visual canvas. A server-side engine executes real HTTP calls, branches on conditions and passes data between steps, with execution logs and step-by-step debugging.",
+    features: [
+      "API tester with collections, environments and request history",
+      "React Flow workflow designer with nine node types",
+      "Execution engine with chaining, branching, validation and debug mode",
+      "JWT and Google OAuth sign-in, with analytics from real MongoDB queries",
+    ],
+    stack: ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "React Flow", "JWT"],
+    image: flowforgeImg,
+    links: [
+      { label: "Live Demo", href: "https://flow-forge-three-xi.vercel.app/" },
+      { label: "GitHub", href: "https://github.com/Saumya-Mishraa/FlowForge" },
+    ],
+    layout: "large-left",
   },
 ];
 

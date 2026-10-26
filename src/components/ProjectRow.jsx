@@ -5,7 +5,7 @@ import SplitWords from "./SplitWords";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ProjectRow({ project }) {
+export default function ProjectRow({ project, total }) {
   const rowRef = useRef(null);
   const imgRef = useRef(null);
   const mediaRef = useRef(null);
@@ -108,12 +108,21 @@ export default function ProjectRow({ project }) {
       </div>
 
       <div className="proj-copy">
-        <span className="proj-number">{project.number} / 04</span>
+        <span className="proj-number">
+          {project.number} / {String(total).padStart(2, "0")}
+        </span>
         <h3 className="proj-title">
           <SplitWords text={project.title} />
         </h3>
         <span className="proj-meta">{project.category}</span>
         <p className="proj-desc">{project.description}</p>
+        {project.features && (
+          <ul className="proj-features">
+            {project.features.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+        )}
         <ul className="proj-stack">
           {project.stack.map((s) => (
             <li key={s}>{s}</li>
